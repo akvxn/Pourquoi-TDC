@@ -29,6 +29,10 @@
 
 .arriereplan {
     filter: blur(20px);
+    background-image: url("windows.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
