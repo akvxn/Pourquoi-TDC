@@ -27,6 +27,11 @@
 
 }
 
+.arriereplan {
+    filter: blur(20px);
+
+}
+
 .menu-btn:hover {
     background-color: hsl(0, 0%, 100%);
 }
