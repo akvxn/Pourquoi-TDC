@@ -6,8 +6,8 @@ body {
   line-height: 1.3;
   padding: 20px;
   text-align: center;
-  background-color: #000000; /* Fond noir pour le body */
-  margin: 0; /* Supprime les marges par défaut */
+  background-color: #000000; 
+  margin: 0; 
 }
 
 .paragraphedebz {
@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-size: 17px;
   color: #ffffff;
+  filter: blur(10px);
   line-height: 1.3;
   text-align: center;
   background-color: rgb(31, 31, 31);
@@ -22,12 +23,12 @@ body {
   padding: 40px 50px;
   width: 550px;
   max-width: 100%;
-  margin: 60px auto 0; /* Centrage et marge en haut */
+  margin: 60px auto 0;
   display: block;
   box-shadow: 2px 2px 400px -60px #ffffff;
   text-shadow: 2px 2px 60px #ffffff;
   transition: 0.5s ease-in;
-  z-index: 1; /* Assure que le texte est au-dessus de l'arrière-plan flouté */
+  z-index: 1; 
 }
 
 .h1 {
@@ -56,7 +57,7 @@ body {
 
 .menu-btn:hover {
   background-color: hsl(0, 0%, 100%);
-  color: #000000; /* Changement de couleur du texte au survol */
+  color: #000000;
 }
 
 .arriereplan {
@@ -69,8 +70,7 @@ body {
   background-size: cover;
   background-position: center;
   filter: blur(10px);
-  z-index: -1; /* Place l'arrière-plan en dessous du contenu */
-}
+  z-index: -1; 
 
 .logodelamort {
   width: 500px;
