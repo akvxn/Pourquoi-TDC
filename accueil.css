@@ -17,6 +17,7 @@ body {
   color: #ffffff;
   line-height: 1.3;
   text-align: center;
+  filter: blur(10px);
   background-color: rgb(31, 31, 31);
   border-radius: 50px;
   padding: 40px 50px;
