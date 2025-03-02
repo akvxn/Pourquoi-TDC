@@ -70,6 +70,7 @@ body {
   background-position: center;
   filter: blur(10px);
   z-index: -1; 
+}
 
 .logodelamort {
   width: 500px;
