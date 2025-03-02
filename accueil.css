@@ -1,113 +1,96 @@
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 1.3;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .paragraphedebz {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: #ffffff;
-    line-height: 1.3;
-    text-align: center;
-    background-color: rgb(31,31,31);
-    filter: blur(10px);
-    border-radius: 50px;
-    padding: 40px 50px;
-    width: 550px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-    margin-top: 60px;
-    box-shadow: 2px 2px 400px -60px #ffffff ;
-    text-shadow: 2px 2px 60px #ffffff;
-    transition: 0.5s ease-in;
-    z-index: 1;
-
-  }
-  
-  .h1 {
-  
-    margin-top: -30px;
-    font-weight: 900;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 1px 1px 90px #ffffff;
-    transform: rotate(-3deg);
-  
-  
-  
-  }
-  
-  .menu-btn {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s ease;
-    margin-top: 90px;
-    box-shadow: 2px 2px 900px -20px #ffffff ;
-  
-  }
-  
-  .menu-btn:hover {
-    background-color: hsl(0, 0%, 100%);
-  }
-  
-.arriereplan {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('windows.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: blur(10px);
-    z-index: -1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.3;
+  padding: 20px;
+  text-align: center;
+  background-color: #000000; /* Fond noir pour le body */
+  margin: 0; /* Supprime les marges par défaut */
 }
 
-  .logodelamort {
-  
+.paragraphedebz {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.3;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  border-radius: 50px;
+  padding: 40px 50px;
+  width: 550px;
+  max-width: 100%;
+  margin: 60px auto 0; /* Centrage et marge en haut */
+  display: block;
+  box-shadow: 2px 2px 400px -60px #ffffff;
+  text-shadow: 2px 2px 60px #ffffff;
+  transition: 0.5s ease-in;
+  z-index: 1; /* Assure que le texte est au-dessus de l'arrière-plan flouté */
+}
+
+.h1 {
+  margin-top: -30px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 90px #ffffff;
+  transform: rotate(-3deg);
+}
+
+.menu-btn {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+  margin-top: 90px;
+  box-shadow: 2px 2px 900px -20px #ffffff;
+}
+
+.menu-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: #000000; /* Changement de couleur du texte au survol */
+}
+
+.arriereplan {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('windows.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1; /* Place l'arrière-plan en dessous du contenu */
+}
+
+.logodelamort {
   width: 500px;
   transition: 0.5s ease;
-  
-  }
-  
-  .logodelamort:hover {
-  
+}
+
+.logodelamort:hover {
   width: 700px;
-  
-  }
-  
-  .footer {
-  
+}
+
+.footer {
   font-size: 15px;
-  color:rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
   margin-top: 110px;
-  }
-  
-  .tktrohya {
-  
-    margin-top: 80px;
-  
-  
-  }
-  
-  .p {
-  
-    text-shadow: 3px 3px 20px #ffffff;
-  
-  
-  }
+}
+
+.tktrohya {
+  margin-top: 80px;
+}
+
+.p {
+  text-shadow: 3px 3px 20px #ffffff;
+}
