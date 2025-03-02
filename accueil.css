@@ -19,6 +19,7 @@ body {
   text-align: center;
   filter: blur(10px);
   background-color: rgb(31, 31, 31);
+  backdrop-filter: blur(10px);
   border-radius: 50px;
   padding: 40px 50px;
   width: 550px;
