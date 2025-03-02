@@ -69,7 +69,7 @@ body {
     font-weight: 900;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 1px 1px 90px #ffffff;
+    text-shadow: 1px 1px 10px #000000;
     transform: rotate(-3deg);
     z-index: 2;
   
