@@ -65,7 +65,19 @@ body {
     background-color: hsl(0, 0%, 100%);
   }
   
-  
+.arriereplan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('windows.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
   .logodelamort {
   
   width: 500px;
